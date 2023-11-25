@@ -1,0 +1,40 @@
+.btn-white{
+  font-size:var(--bs-body-font-size);
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  margin-right: 5px; 
+  background-color:white;
+}
+
+.btn-success{
+  font-size:var(--bs-body-font-size);
+  font-weight: 600;
+  padding: 0.75rem 1.35rem;
+  margin-right: 5px; 
+  background-color:$color-success;
+  border-color:$color-success ;
+  &:hover{
+    background-color:$color-dark-success; 
+    border-color:$color-dark-success;
+   }
+}
+
+.btn-primary{
+    font-weight: 600;
+    background-color:$color-primary;
+    border-color:$color-primary;
+    &:hover{
+      background-color:$color-dark-primary;
+      border-color:$color-dark-primary; 
+     }
+}
+
+.btn-outline-primary{
+  color: $color-primary;
+  font-weight: 600;
+  border-color:$color-primary;
+  &:hover{
+    background-color:$color-primary;
+    border-color:$color-primary; 
+   }
+}

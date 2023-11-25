@@ -1,0 +1,79 @@
+.card-body{
+    padding: 1.5rem;
+}
+//******************************
+//right card in page 2:
+
+.card-header {
+  background-color:white!important;
+}
+.card-header:first-child {
+  border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+}
+
+@media (min-width:992px){
+  .c-mg{
+    margin-top: -12rem;
+  }
+}
+//left card in page 2:
+.c-mg-l{
+  margin-top:-3.5rem !important;
+}
+
+//.nav {
+//  flex-wrap:nowrap
+//}
+
+@media (max-width: 576px){
+  .nav-lb-tab {
+     flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+}
+
+.nav-lb-tab .nav-item {
+  margin: 0 1.5rem;
+}
+
+.nav-lb-tab {
+    border-bottom: 1px solid #e8e7ed;
+}
+
+.nav-lb-tab .nav-item .nav-link.active, .nav-lb-tab .nav-item .nav-link:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #754ffe;
+  color: #754ffe;
+}
+
+.nav-lb-tab .nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  color: #79758f;
+  font-weight: 500;
+  margin-bottom: -1px;
+  padding: 16px 0;
+  white-space: nowrap;
+}
+.nav-link {
+  color: #754ffe;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+.accordion-button {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  $accordion-icon-width: 20px;
+}
+//button:focus:not(:focus-visible) {
+//  outline: 0;
+//  outline-color: white;
+//  outline-style: initial;
+//  outline-width: 0px;
+//}

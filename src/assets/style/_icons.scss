@@ -1,0 +1,103 @@
+.icon-xsm{
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 4px;
+    color:$color-warn;
+}
+
+.icon-sm{
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-bottom: 4px;
+    margin-right: 0.1rem !important;
+}
+
+.icon-md {
+    height: 0.9rem;
+    width: 0.9rem;
+    margin-bottom: 4px;
+    margin-right: 0.1rem !important;
+}
+
+.icon-lg {
+    height: 3rem;
+    line-height: 3rem;
+    width: 3rem;
+}
+
+.icon-xl {
+    height: 6rem;
+    line-height: 3rem;
+    width: 6rem;
+}
+
+.icon-star{
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-bottom: 4px;
+    margin-right: 0.08rem !important;
+}
+
+.icon-play{
+    margin-top: 0.5rem;
+    height: 1rem;
+}
+
+.icon-arow{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-bottom: 3px;
+}
+
+//.icon-fill {
+//    stroke: black;
+//    fill: black;
+//}
+
+.img-size-z{
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 4px;
+    z-index: 0;
+}
+.img-size{
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-bottom: 3px;
+    //color:$color-second;
+}
+.img-size-1{
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-bottom: 4px;
+}
+.img-size-2{
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 4px;
+}
+.img-size-3 {
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    position: absolute;
+    text-align: center;
+    transition: .2s ease-in;
+    top: 40%;
+    background-color: #fff;;
+    color: $color-primary;
+
+}
+.img-size-3:hover {
+    background-color: #754ffe;
+    border-color: #754ffe;
+    color: #fff;
+}
+
+.img-size-4 {
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: -8px;
+}
+

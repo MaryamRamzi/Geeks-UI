@@ -1,0 +1,28 @@
+
+    <a class="text-muted"
+        (click)="booked()"
+        (mouseover)="tip(true)"
+        (mouseout)="tip(false)"
+        >
+        <img *ngIf="!show" src="assets/images/ribbon.png" class="img-size">
+<!--        <i *ngIf="!show" class="icon-md" data-feather="bookmark"></i>-->
+
+    </a>
+
+    <a  (click)="booked()"
+        (mouseover)="tip(true)"
+        (mouseout)="tip(false)">
+<!--        <i *ngIf="show" class="icon-md icon-fill" data-feather="bookmark"></i>-->
+        <img *ngIf="show" src="assets/images/bookmark.png" class="img-size">
+    </a>
+
+    <p *ngIf="showTooltip" class="toltip">Add to Bookmark</p>
+    <body style="text-align:center;">
+
+<!--    <div class="tooltip">Hover over me-->
+<!--        <span class="tooltiptext">Tooltip text</span>-->
+<!--    </div>-->
+<!--    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">-->
+<!--        Tooltip on top-->
+<!--    </button>-->
+<!--<i onclick="myFunction(this)" class="icon-md" data-feather="bookmark"></i>-->

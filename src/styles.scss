@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/style/base';
+@import './assets/style/swiper';
+@import './assets/style/btn';
+@import './assets/style/typography';
+@import './assets/style/icons';
+@import './assets/style/cards';
+
+@font-face {
+    font-family: "InterBold";
+    src: local("InterBold"), url(./assets/fonts/Inter-Bold.ttf) format("truetype");
+    // src: local("Inter"), url(./assets/fonts/Inter-Regular.ttf) format("truetype");
+    
+}
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"), url(./assets/fonts/Inter-Regular.ttf) format("truetype");
+    
+}

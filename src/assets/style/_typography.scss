@@ -1,0 +1,43 @@
+//typography:
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: $color-dark;
+  font-family: Inter,"sans-serif";
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.h1 {
+  color: #18113c;
+  font-family: InterBold,"sans-serif";
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.h2, h2 {
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size:1.5rem;
+  font-weight:500;
+}
+  
+h3{
+  font-size:20px;
+  font-weight:500;
+}
+
+h4{
+  font-size:1rem;
+  font-weight:600;
+  line-height: 1.5;
+}
+
+.fs-4{
+  font-size: 1rem!important;
+}
+

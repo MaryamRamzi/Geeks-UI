@@ -1,0 +1,431 @@
+<div class="position-relative">
+    <ul class="controls " id="sliderSecondControls" aria-label="Carousel Navigation" tabindex="0">
+        <li class="prev" aria-controls="tns2" tabindex="-1" data-controls="prev">
+            <i class=" icon-arow" data-feather="chevron-left"></i>
+<!--            <img src="assets/images/down-arrow.png" class="img-size"> -->
+        </li>
+        <li class="next" aria-controls="tns2" tabindex="-1" data-controls="next">
+            <i class="icon-arow" data-feather="chevron-right"></i>
+        </li>
+    </ul>
+    <swiper [config]="config">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card ">
+                    <a routerLink="/pageone" class="card-img-top" >
+                        <img src="assets/images/course-react.jpg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a" routerLink="/pageone">
+                            How to easily create a website with React</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                                </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                            <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <div class="lh-1 mt-4 mb-1">
+                            <span class="fw-bold text-dark ">$600</span>
+                            <del class="fs-7 text-muted ms-1">$750</del>
+                        </div>
+                    </div>
+                
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/avatar-1.jpg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Morris Mccoy</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                    <a routerLink="/pagetow" class="card-img-top" >
+                        <img src="assets/images/course-angular.jpg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a" routerLink="/pagetow">
+                            Angular-the complete guide for beginner</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>1h 30m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                            <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <!-- <div class="lh-1 mt-3">
+                            <span class="fw-bold">$600</span>
+                            <del class="fs-6 text-muted">$750</del>
+                        </div> -->
+                    </div>
+                    
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/avatar-3.jpg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Juanita Bell</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                    <a routerLink="/pagethree" class="card-img-top" >
+                        <img src="assets/images/course-graphql.jpg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a" routerLink="/pagethree">
+                            GraphQL:introduction to graphQL for beginners</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                            <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <!-- <div class="lh-1 mt-3">
+                            <span class="fw-bold">$600</span>
+                            <del class="fs-6 text-muted">$750</del>
+                        </div> -->
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/avatar-2.jpg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Claire Robertson</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                    <a routerLink="/pagefour" class="card-img-top" >
+                        <img src="assets/images/course-python.jpg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a" routerLink="/pagefour">
+                            The Python Course: build web application</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                            <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <!-- <div class="lh-1 mt-3">
+                            <span class="fw-bold">$600</span>
+                            <del class="fs-6 text-muted">$750</del>
+                        </div> -->
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/avatar-4.jpg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Ted Hawkins</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                        <a routerLink="/pagefive" class="card-img-top" >
+                            <img src="assets/images/01 (8).jpeg" alt="" class="card-img-top rounded-top-md">
+                        </a>
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <h4 class="mb-2 text-truncate-line-2"><a routerLink="/pagefive" class="c-a" >
+                                Getting Started with JavaScript</a></h4>
+                            <ul class="mb-25 list-inline">
+                                <li class="list-inline-item text-secondary">
+                                    <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                                <li class="list-inline-item text-secondary">
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                </svg> Beginner
+                                </li>
+                            </ul>
+                            <div class="lh-1">
+                               <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                                <span class="t-w ms-1">4.5</span>
+                                <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                            </div>
+                            <!-- <div class="lh-1 mt-3">
+                                <span class="fw-bold">$600</span>
+                                <del class="fs-6 text-muted">$750</del>
+                            </div> -->
+                        </div>
+                        <!-- Card footer -->
+                        <div class="card-footer">
+                            <div class="row align-items-center g-0">
+                                <div class="col-auto">
+                                    <img src="assets/images/01 (4).jpeg" class="avatar-xs rounded-circle">
+                                </div>
+                                <div class="col ms-2">
+                                    <span>Ted Hawkins</span>
+                                </div>
+                                <div class="col-auto">
+                                    <app-bookmark></app-bookmark>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                    <a class="card-img-top" >
+                        <img src="assets/images/01 (1).jpeg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a">
+                            Wordpress:complete WordPress theme & plugin development</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                           <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <!-- <div class="lh-1 mt-3">
+                            <span class="fw-bold">$600</span>
+                            <del class="fs-6 text-muted">$750</del>
+                        </div> -->
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/01 (2).jpeg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Claire Robertson</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                    <a class="card-img-top" >
+                        <img src="assets/images/01 (7).jpeg" alt="" class="card-img-top rounded-top-md">
+                    </a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h4 class="mb-2 text-truncate-line-2"><a class="c-a">
+                            Gatsby JS:build blog with GraphQL and React</a></h4>
+                        <ul class="mb-25 list-inline">
+                            <li class="list-inline-item text-secondary">
+                                <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                            <li class="list-inline-item text-secondary">
+                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+            </svg> Beginner
+                            </li>
+                        </ul>
+                        <div class="lh-1">
+                             <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                            <span class="t-w ms-1">4.5</span>
+                            <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                        </div>
+                        <!-- <div class="lh-1 mt-3">
+                            <span class="fw-bold">$600</span>
+                            <del class="fs-6 text-muted">$750</del>
+                        </div> -->
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer">
+                        <div class="row align-items-center g-0">
+                            <div class="col-auto">
+                                <img src="assets/images/01 (3).jpeg" class="avatar-xs rounded-circle">
+                            </div>
+                            <div class="col ms-2">
+                                <span>Juanita Bell</span>
+                            </div>
+                            <div class="col-auto">
+                                <app-bookmark></app-bookmark>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3 shadow-1 cu-card">
+                        <a class="card-img-top" >
+                            <img src="assets/images/01 (6).jpeg" alt="" class="card-img-top rounded-top-md">
+                        </a>
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <h4 class="mb-2 text-truncate-line-2"><a class="c-a">
+                                CSS:ultimate CSS course from beginner to advanced</a></h4>
+                            <ul class="mb-25 list-inline">
+                                <li class="list-inline-item text-secondary">
+                                    <i class=" img-size me-1" data-feather="clock"></i>3h 56m</li>
+                                <li class="list-inline-item text-secondary">
+                                    <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect>
+                </svg> Beginner
+                                </li>
+                            </ul>
+                            <div class="lh-1">
+                                 <span>
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                                <img src="assets/images/pointed-star1.png"  class="icon-sm">
+                            </span>
+                                <span class="t-w ms-1">4.5</span>
+                                <span class="fs-7 ms-1 text-muted">(7,700)</span>
+                            </div>
+                        </div>
+                        <!-- Card footer -->
+                        <div class="card-footer">
+                            <div class="row align-items-center g-0">
+                                <div class="col-auto">
+                                    <img src="assets/images/01 (5).jpeg" class="avatar-xs rounded-circle">
+                                </div>
+                                <div class="col ms-2">
+                                    <span>Claire Robertson</span>
+                                </div>
+                                <div class="col-auto">
+                                    <app-bookmark></app-bookmark>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </swiper>
+</div>
